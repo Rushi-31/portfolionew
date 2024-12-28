@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/animations.css';
+@import './styles/theme.css';
+
+:root {
+  --primary:rgb(0 255 255 / 0.8);
+  --primary-dim: :rgb(0 255 255 / 0.5);
+  --text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(0, 255, 0, 0.3);
+  color: #fff;
+}

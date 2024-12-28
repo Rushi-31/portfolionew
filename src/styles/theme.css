@@ -1,0 +1,52 @@
+/* Add to existing theme.css */
+
+.cyber-text {
+  color: var(--primary);
+  text-shadow: 0 0 5px var(--primary);
+  transition: text-shadow 0.3s ease;
+}
+
+.cyber-text:hover {
+  text-shadow: 0 0 10px var(--primary);
+}
+
+.cyber-item {
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.cyber-item:hover {
+  background: rgba(0, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.cyber-glitch {
+  position: relative;
+  text-shadow: 
+    0 0 5px var(--primary),
+    0 0 10px var(--primary);
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 
+      0 0 5px var(--primary),
+      0 0 10px var(--primary);
+  }
+  50% {
+    text-shadow: 
+      -2px 0 5px var(--secondary),
+      2px 0 10px var(--primary);
+  }
+  100% {
+    text-shadow: 
+      0 0 5px var(--primary),
+      0 0 10px var(--primary);
+  }
+}
