@@ -9,7 +9,7 @@ import HeroSection from './components/HeroSection';
 
 function App() {
   return (
-    <div className="min-h-screen cyber-container text-blue-100 font-mono matrix-bg">
+    <div className="min-h-screen cyber-container text-white font-mono matrix-bg">
       <div className="cyber-grid fixed inset-0 pointer-events-none" />
       
       <div className="relative">
@@ -18,7 +18,7 @@ function App() {
         <main className="container mx-auto px-4 py-8">
           <HeroSection />
 
-          <Section title="Experience" icon={<Briefcase className="text-blue-400" />}>
+          <Section title="Experience" icon={<Briefcase className="text-white" />}>
             <ExperienceCard
               title="Application Developer Intern"
               company="Agumentik Group of Companies"
@@ -36,7 +36,7 @@ function App() {
             />
           </Section>
 
-          <Section title="Projects" icon={<Code className="text-blue-400" />}>
+          <Section title="Projects" icon={<Code className="text-white" />}>
             <div className="grid md:grid-cols-2 gap-6">
               <ProjectCard
                 title="Prakriti: Disease Predictor"
@@ -61,7 +61,7 @@ function App() {
             </div>
           </Section>
 
-          <Section title="Technical Skills" icon={<Wrench className="text-blue-400" />}>
+          <Section title="Technical Skills" icon={<Wrench className="text-white" />}>
             <div className="grid md:grid-cols-3 gap-6">
               <SkillCard
                 title="Languages"
@@ -78,21 +78,21 @@ function App() {
             </div>
           </Section>
 
-          <Section title="Education" icon={<GraduationCap className="text-blue-400" />}>
+          <Section title="Education" icon={<GraduationCap className="text-white" />}>
             <div className="cyber-card p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-400 neon-text">BTech. in Artificial Intelligence</h3>
-              <p className="text-blue-300">G H Raisoni College of Engineering and Management, Pune</p>
-              <p className="text-blue-200">Dec 2021 – June 2025 (Pursuing)</p>
-              <p className="text-blue-300 mt-2">CGPA: 8.41</p>
+              <h3 className="text-xl font-bold text-white neon-text">BTech. in Artificial Intelligence</h3>
+              <p className="text-white">G H Raisoni College of Engineering and Management, Pune</p>
+              <p className="text-white">Dec 2021 – June 2025 (Pursuing)</p>
+              <p className="text-white mt-2">CGPA: 8.41</p>
             </div>
           </Section>
 
-          <Section title="Leadership" icon={<Award className="text-blue-400" />}>
+          <Section title="Leadership" icon={<Award className="text-white" />}>
             <div className="cyber-card p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-400 neon-text">Technical Team Lead</h3>
-              <p className="text-blue-300">Eureka Innovation and Incubation Club</p>
-              <p className="text-blue-200">Oct 2023 – Present</p>
-              <ul className="list-disc list-inside mt-4 space-y-2 text-blue-300">
+              <h3 className="text-xl font-bold text-white neon-text">Technical Team Lead</h3>
+              <p className="text-white">Eureka Innovation and Incubation Club</p>
+              <p className="text-white">Oct 2023 – Present</p>
+              <ul className="list-disc list-inside mt-4 space-y-2 text-white">
                 <li>Ranked in the top 100 in the ISRO Space India Hackathon</li>
                 <li>Attained top 10 position in the AIT Innerve 8 Hackathon</li>
                 <li>Achieved the highest score in the internal hackathon round of SIH 2023</li>
